@@ -23,11 +23,11 @@ while i < len(string):
                 number += y
                 if (xi + 1) < len(string):
                     xi += 1
-                y = string[xi]
-            number = int(number)
-            file.write(newstring1 * number)
-        if i == (len(string)-1):
-            number += y
+                    y = string[xi]
+                else:
+                    y = string[xi]
+                    break
+
             number = int(number)
             file.write(newstring1 * number)
     if i < xi:
