@@ -1,2 +1,2 @@
-# DenisStydy
+# DenisStudy
 Для обучения Дениса
